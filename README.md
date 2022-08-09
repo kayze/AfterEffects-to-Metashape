@@ -7,8 +7,8 @@ Create a Marker in Metashape on you starting image, and make sure to have as man
 Export your markers to an XML file.
 Open up the XML and locate your marker under "<markers>".
 Example:
-  <markers next_id="2" next_group_id="0">
-    <marker id="1" label="point 1"/>"
+  "<markers next_id="2" next_group_id="0">"
+    "<marker id="1" label="point 1"/>"
 take note of your marker ID
 
 
