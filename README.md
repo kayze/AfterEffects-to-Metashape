@@ -11,13 +11,15 @@ Example:
       <marker id="1" label="point 1"/>
 take note of your marker ID
 
-    Now a bit further down the document look for your camera ID where your pinned marker is "true"
-        <frames next_id="1">
-          <frame id="0">
-            <markers>
-               <marker marker_id="1">
-                  <location camera_id="180" pinned="true" x="4278" y="2187.5"/>
-                 Take a note of your camera_id
+
+Now a bit further down the document look for your camera ID where your pinned marker is "true"
+Example:
+<frames next_id="1">
+  <frame id="0">
+    <markers>
+      <marker marker_id="1">
+        <location camera_id="180" pinned="true" x="4278" y="2187.5"/>
+        Take a note of your camera_id
                  
                  
 Add your images to Aftereffects and track your point.
