@@ -1,8 +1,3 @@
-# camera id
-# marker id
-# x float till position på bild
-# y float till position på bild
-# <location camera_id="29" pinned="true" x="3946.37915" y="2431.9209"/>
 import array
 
 startCameraID = input("What's the camera id of your starting picture? ")
@@ -36,7 +31,3 @@ for x in cameraID:
 
 outputFile.close()
 print("All done, you can now copy over your lines to the markers.xml")
-
-
-#f = open("output.txt", "r")
-#print(f.read())
